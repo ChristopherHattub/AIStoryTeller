@@ -1,0 +1,10 @@
+{
+    "timePeriod": ["Medieval", "Future", "Present"],
+    "classRole": ["Knight", "Cyborg", "Engineer"],
+    "storyEvents": [
+      "is tasked with saving the town from a dragon.",
+      "discovers a hidden tech that can change the world.",
+      "is chosen to lead a major project at work."
+    ]
+  }
+  
