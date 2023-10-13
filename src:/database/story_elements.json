@@ -1,0 +1,60 @@
+{
+    "timePeriod": [
+      {
+        "id": 1,
+        "name": "Medieval",
+        "description": "A time of knights, castles, and dragons."
+      },
+      {
+        "id": 2,
+        "name": "Modern Day",
+        "description": "The present era, with technology, cities, and contemporary challenges."
+      },
+      {
+        "id": 3,
+        "name": "Future",
+        "description": "An advanced era, with futuristic tech, space travel, and new societal norms."
+      }
+
+    ],
+    "classRole": [
+      {
+        "id": 1,
+        "name": "Warrior",
+        "description": "Skilled in combat and weaponry. Brave and bold."
+      },
+      {
+        "id": 2,
+        "name": "Scientist",
+        "description": "Knowledgeable, curious, and always seeking the truth."
+      },
+      {
+        "id": 3,
+        "name": "Explorer",
+        "description": "Adventurous, loves to discover new places and mysteries."
+      }
+
+    ],
+    "storyEvents": [
+      {
+        "id": 1,
+        "relatedTimePeriod": [1, 3], 
+        "relatedClass": [1], 
+        "description": "A challenge at the king's tournament awaits!"
+      },
+      {
+        "id": 2,
+        "relatedTimePeriod": [2],
+        "relatedClass": [2],
+        "description": "A mysterious phenomenon needs investigating in the city."
+      },
+      {
+        "id": 3,
+        "relatedTimePeriod": [3],
+        "relatedClass": [3],
+        "description": "A new uncharted planet has been found. Time to explore!"
+      }
+   
+    ]
+  }
+  
