@@ -1,7 +1,7 @@
 import os
 
 # Default configuration settings
-API_ENDPOINT = "https://api.openai.com/v2/engines/davinci/completions"
+API_ENDPOINT = "https://api.openai.com/v1/chat/completions"
 API_KEY = os.environ.get("CHATGPT_API_KEY")  
 
 def load_config():
